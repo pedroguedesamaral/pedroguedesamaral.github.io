@@ -1,8 +1,24 @@
-<html>
-  <head>
-    <title>Pedro Guedes Amaral</title>
-  </head>
-  <body>
-    <h1>Testando 12345</h1>
-  </body>
-</html>
+---
+layout: default
+---
+
+{% for post in site.posts %}
+
+  <div class="row">
+    <div class="col-md-12 project" style="background-color: {{post.background-color}};">
+        <center>
+          <div class="project-image">
+            <img src="{{post.image}}" class="img-responsive center-block">
+          </div>
+
+          <div class="project-info" style="color:{{post.info-font-color}};">
+            <h2 style="font-family: {{post.info-title-font}}">{{post.title}}</h2>
+            <h3 style="font-family: {{post.info-subtitle-and-description-font}}">{{post.subtitle}}</h3>
+            <p style="font-family: {{post.info-subtitle-and-description-font}}">{{post.description}}</p>
+            <a href="{{post.url}}" class="btn" style="background-color: {{post.button-color}}; color: {{post.button-font-color}}; font-family: {{post.button-font}}">{{post.url-text}}</a>
+          </div>
+        </center>
+    </div>
+  </div>
+
+{% endfor %}

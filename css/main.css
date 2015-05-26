@@ -1,0 +1,25 @@
+body {
+  padding-top: 51px;
+}
+
+.project {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.project-image {
+  max-width: 800px;
+}
+
+.project-info {
+  padding: 2em 0 0;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.project-info .btn {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+
