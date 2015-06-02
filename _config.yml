@@ -1,3 +1,18 @@
 title: An Awesome Title
 
 baseurl: ""
+
+projects:
+  - title: "A Title"
+    subtitle: "A Subtitle"
+    description: "A description"
+    background-color: "#7dcc93"
+    image: "http://seanhalpin.io/assets/img/content/work/rest-tablet.jpg"
+    info-font-color: "#fff"
+    info-title-font: "'Roboto', sans-serif;"
+    info-subtitle-and-description-font: "'Slabo 27px', serif;"
+    button-color: "#2b3d51"
+    url-text: "Check it out!"
+    button-font-color: "#000"
+    button-font: "'Oswald', sans-serif;"
+    url: "http://www.google.com"
