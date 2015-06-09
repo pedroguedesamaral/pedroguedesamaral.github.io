@@ -1,18 +1,18 @@
-title: An Awesome Title
+title: Pedro Guedes
 
 baseurl: ""
 
 projects:
-  - title: "A Title"
-    subtitle: "A Subtitle"
-    description: "A description"
-    background-color: "#7dcc93"
-    image: "http://seanhalpin.io/assets/img/content/work/rest-tablet.jpg"
+  - title: "Usisaúde"
+    subtitle: "iOS App UI"
+    description: "I worked on a new wordpress theme for autondify.com. A job board theme with a heavy focus on video resumes, available for purchase shortly."
+    background-color: "#F76161"
+    image: ""
     info-font-color: "#fff"
-    info-title-font: "'Roboto', sans-serif;"
-    info-subtitle-and-description-font: "'Slabo 27px', serif;"
-    button-color: "#2b3d51"
-    url-text: "Check it out!"
-    button-font-color: "#000"
-    button-font: "'Oswald', sans-serif;"
-    url: "http://www.google.com"
+    info-title-font: "'Montserrat', sans-serif;"
+    info-subtitle-and-description-font: "'Halant', serif;"
+    button-color: "#3B7590"
+    url-text: "VIEW ON BEHANCE"
+    button-font-color: "#fff"
+    button-font: "'Montserrat', sans-serif;"
+    url: "http://www.behance.net"

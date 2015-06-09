@@ -4,21 +4,23 @@ layout: default
 
 {% for project in site.projects %}
 
-  <div class="row">
-    <div class="col-md-12 project" style="background-color: {{project.background-color}};">
-        <center>
-          <div class="project-image">
-            <img src="{{project.image}}" class="img-responsive center-block">
-          </div>
+  <section id="work">
+    <div class="row">
+      <div class="col-md-12 project" style="background-color: {{project.background-color}};">
+          <center>
+            <div class="project-image">
+              <img src="{{project.image}}" class="img-responsive center-block">
+            </div>
 
-          <div class="project-info" style="color:{{project.info-font-color}};">
-            <h2 style="font-family: {{project.info-title-font}}">{{project.title}}</h2>
-            <h3 style="font-family: {{project.info-subtitle-and-description-font}}">{{project.subtitle}}</h3>
-            <p style="font-family: {{project.info-subtitle-and-description-font}}">{{project.description}}</p>
-            <a href="{{project.url}}" class="btn" style="background-color: {{project.button-color}}; color: {{project.button-font-color}}; font-family: {{project.button-font}}">{{project.url-text}}</a>
-          </div>
-        </center>
+            <div class="project-info" style="color:{{project.info-font-color}};">
+              <h2 style="font-family: {{project.info-title-font}}">{{project.title}}</h2>
+              <h3 style="font-family: {{project.info-subtitle-and-description-font}}">{{project.subtitle}}</h3>
+              <p style="font-family: {{project.info-subtitle-and-description-font}}">{{project.description}}</p>
+              <a href="{{project.url}}" class="btn" style="background-color: {{project.button-color}}; color: {{project.button-font-color}}; font-family: {{project.button-font}}">{{project.url-text}}</a>
+            </div>
+          </center>
+      </div>
     </div>
-  </div>
+  </section>
 
 {% endfor %}
