@@ -4,23 +4,19 @@ layout: default
 
 {% for project in site.projects %}
 
-  <section id="work">
-    <div class="row">
-      <div class="col-md-12 project" style="background-color: {{project.background-color}};">
-          <center>
-            <div class="project-image">
-              <img src="{{project.image}}" class="img-responsive center-block">
-            </div>
-
-            <div class="project-info" style="color:{{project.info-font-color}};">
-              <h2 style="font-family: {{project.info-title-font}}">{{project.title}}</h2>
-              <h3 style="font-family: {{project.info-subtitle-and-description-font}}">{{project.subtitle}}</h3>
-              <p style="font-family: {{project.info-subtitle-and-description-font}}">{{project.description}}</p>
-              <a href="{{project.url}}" class="btn" style="background-color: {{project.button-color}}; color: {{project.button-font-color}}; font-family: {{project.button-font}}">{{project.url-text}}</a>
-            </div>
-          </center>
-      </div>
+  <article class="page-article page-article-work" style="background-color: {{project.background-color}};">
+    <div class="work-image">
+      <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Screenshot of {{project.title}}" data-src="{{project.image}}" class="b-lazy">
     </div>
-  </section>
+
+    <div style="color:{{project.info-font-color}};">
+      <h3 class="work-title" style="font-family: {{project.info-title-font}}">{{project.title}}</h3>
+      <span class="work-role" style="font-family: {{project.info-subtitle-and-description-font}}">{{project.subtitle}}</span>
+
+      <p class="work-description" style="font-family: {{project.info-subtitle-and-description-font}}">{{project.description}}</p>
+
+      <a href="{{project.url}}" title="View this work" target="_blank" class="button work-link" style="background-color: {{project.button-color}}; color: {{project.button-font-color}}; font-family: {{project.button-font}}">{{project.url-text}}</a>
+    </div>
+  </article>
 
 {% endfor %}

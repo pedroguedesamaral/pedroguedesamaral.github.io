@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="pt-BR">
 
   {% include head.html %}
 
   <body>
-    {% include menu.html %}
-    {% include about.html %}
-    {% include work.html %}
-    {{ content }}
-    {% include contact.html %}
-    {% include footer.html %}
-    {% include scripts.html %}
-  </body>
+    <div class="container">
+      {% include top-area.html %}
+
+      <main role="main" class="main-content">
+        {% include work.html %}
+        {{ content }}
+        {% include contact.html %}
+      </main>
+        {% include footer.html %}
+        {% include scripts.html %}
+      </body>
+    </div>
 </html>
